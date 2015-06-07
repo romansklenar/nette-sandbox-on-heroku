@@ -23,3 +23,11 @@ services:
 	- App\Model\UserManager
 	- App\Forms\SignFormFactory
 	router: App\RouterFactory::createRouter
+
+
+database:
+  dsn: 'postgres://ahsiqqlvcfdokw:wZluoL7pZ4wjs2dXnelKLXvy7Z@ec2-54-83-25-238.compute-1.amazonaws.com:5432/db2hbac5piorh'
+  user:
+  password:
+  options:
+    lazy: yes
