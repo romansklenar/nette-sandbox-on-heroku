@@ -26,8 +26,6 @@ services:
 
 
 database:
-  dsn: 'postgres://ahsiqqlvcfdokw:wZluoL7pZ4wjs2dXnelKLXvy7Z@ec2-54-83-25-238.compute-1.amazonaws.com:5432/db2hbac5piorh'
-  user:
-  password:
-  options:
-    lazy: yes
+	dsn: 'pgsql:host=ec2-54-83-25-238.compute-1.amazonaws.com;port=5432;dbname=db2hbac5piorh;user=ahsiqqlvcfdokw;password=wZluoL7pZ4wjs2dXnelKLXvy7Z'
+	options:
+		lazy: yes
